@@ -1,0 +1,7 @@
+[all:vars]
+
+ansible connection = ssh
+
+[test]
+
+test1 ansible host=remote_host ansible_user=remote_user ansible_private_key_file=/var/jenkins_home/ansible/remote-key

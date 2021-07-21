@@ -1,0 +1,19 @@
+Started by user [8mha:////4D2mcdMsb9J+4EXTquCBBN+/WMSADkUKXZ6qfz61BhheAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYe/dLi1CL9rPy0tKJUAFw5OanBAAAA[0mjoffre hermosilla salas
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible-job
+[ansible-job] $ ansible-playbook /var/jenkins_home/ansible/play.yml -i /var/jenkins_home/ansible/hosts -f 5 -e "MSG='Adios  Mundo desde ANSIBLE CONFIGURADO EN JENKINS'"
+
+PLAY [test1] *******************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [test1]
+
+TASK [debug] *******************************************************************
+ok: [test1] => {
+    "MSG": "Adios  Mundo desde ANSIBLE CONFIGURADO EN JENKINS"
+}
+
+PLAY RECAP *********************************************************************
+test1                      : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

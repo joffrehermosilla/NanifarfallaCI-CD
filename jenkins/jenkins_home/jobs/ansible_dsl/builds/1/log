@@ -1,0 +1,14 @@
+Started by user [8mha:////4D2mcdMsb9J+4EXTquCBBN+/WMSADkUKXZ6qfz61BhheAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYe/dLi1CL9rPy0tKJUAFw5OanBAAAA[0mjoffre hermosilla salas
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible_dsl
+[8mha:////4A4bbFdd4LmQkckD44iQDY1VcCO2Ul0HfSaOy5+6AIjZAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFQOzxLRk05RkXXMjU0tdE0sLY90kw6QUXTMLkyQzk+RkQ/MUUwDZ9uQ3rwAAAA==[0m[ansible_dsl] $ ansible-playbook /var/jenkins_home/ansible/play.yml -i /var/jenkins_home/ansible/hosts -t cool -f 5 --private-key /tmp/ssh532320041507684593.key -u remote_user -e EDAD=23
+
+PLAY [test1] *******************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [test1][0m
+
+PLAY RECAP *********************************************************************
+[0;32mtest1[0m                      : [0;32mok=1   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

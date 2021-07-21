@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-07-21 01:49:13.204 UTC</timestamp>
+  <md5sum>28294cf0697ed5f5073ab0a5e1608e22</md5sum>
+  <fileName>Credential id=git_creds name=joffre/******</fileName>
+  <usages>
+    <entry>
+      <string>job-dsl</string>
+      <ranges>14-34</ranges>
+    </entry>
+    <entry>
+      <string>maven-job</string>
+      <ranges>12-14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

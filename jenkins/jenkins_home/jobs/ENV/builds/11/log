@@ -1,0 +1,19 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins6903614265880694067.sh
++ echo BUILD_NUMBER: 11
+BUILD_NUMBER: 11
++ echo BUILD_URL: http://jenkins.local:8080/job/ENV/11/
+BUILD_URL: http://jenkins.local:8080/job/ENV/11/
++ echo JOB_NAME: ENV
+JOB_NAME: ENV
++ echo JAVA_HOME: /usr/local/openjdk-8
+JAVA_HOME: /usr/local/openjdk-8
++ echo JENKINS_URL: http://jenkins.local:8080/
+JENKINS_URL: http://jenkins.local:8080/
++ echo PLATAFORMA: UDEMY
+PLATAFORMA: UDEMY
++ echo PAIS: PERU
+PAIS: PERU
+Finished: SUCCESS

@@ -1,0 +1,19 @@
+Started by user [8mha:////4O6j68/ThliJeTx7Kulcfqp/J7nkCw3f8eXNy7kbhsfaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYe/dLi1CJ9oBGpOYkAUo55Q8EAAAA=[0mangela garate roman
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins3848171692045495669.sh
++ echo BUILD_NUMBER: 4
+BUILD_NUMBER: 4
++ echo BUILD_URL: http://jenkins.local:8080/job/ENV/4/
+BUILD_URL: http://jenkins.local:8080/job/ENV/4/
++ echo JOB_NAME: ENV
+JOB_NAME: ENV
++ echo JAVA_HOME: /usr/local/openjdk-8
+JAVA_HOME: /usr/local/openjdk-8
++ echo JENKINS_URL: http://jenkins.local:8080/
+JENKINS_URL: http://jenkins.local:8080/
++ echo PLATAFORMA: UDEMY
+PLATAFORMA: UDEMY
++ echo PAIS: PERU
+PAIS: PERU
+Finished: SUCCESS

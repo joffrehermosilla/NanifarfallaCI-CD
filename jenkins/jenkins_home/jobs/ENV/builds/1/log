@@ -1,0 +1,15 @@
+Started by user [8mha:////4JB77vIDf1LFDoTOkQprl79iCZ/Cx7oSwm/s8RKlGWqTAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYe/dLi1CL9rNK8zPwiAExX1L/BAAAA[0mjoffre hermosilla garate
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins7774999224375056829.sh
++ echo BUILD_NUMBER: 1
+BUILD_NUMBER: 1
++ echo BUILD_URL: http://localhost:8080/job/ENV/1/
+BUILD_URL: http://localhost:8080/job/ENV/1/
++ echo JOB_NAME: ENV
+JOB_NAME: ENV
++ echo JAVA_HOME: /usr/local/openjdk-8
+JAVA_HOME: /usr/local/openjdk-8
++ echo JENKINS_URL: http://localhost:8080/
+JENKINS_URL: http://localhost:8080/
+Finished: SUCCESS

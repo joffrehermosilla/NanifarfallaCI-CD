@@ -1,0 +1,21 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins2025066702629336202.sh
++ echo BUILD_NUMBER: 7
+BUILD_NUMBER: 7
++ echo BUILD_URL: http://jenkins.local:8080/job/ENV/7/
+BUILD_URL: http://jenkins.local:8080/job/ENV/7/
++ echo JOB_NAME: ENV
+JOB_NAME: ENV
++ echo JAVA_HOME: /usr/local/openjdk-8
+JAVA_HOME: /usr/local/openjdk-8
++ echo JENKINS_URL: http://jenkins.local:8080/
+JENKINS_URL: http://jenkins.local:8080/
++ echo PLATAFORMA: UDEMY
+PLATAFORMA: UDEMY
++ echo1 PAIS: PERU
+/tmp/jenkins2025066702629336202.sh: 8: /tmp/jenkins2025066702629336202.sh: echo1: not found
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: joffre.hermosilla@gmail.com
+Finished: FAILURE

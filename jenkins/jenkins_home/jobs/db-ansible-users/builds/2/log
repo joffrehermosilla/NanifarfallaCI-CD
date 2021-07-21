@@ -1,0 +1,17 @@
+Started by user [8mha:////4D2mcdMsb9J+4EXTquCBBN+/WMSADkUKXZ6qfz61BhheAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYe/dLi1CL9rPy0tKJUAFw5OanBAAAA[0mjoffre hermosilla salas
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/db-ansible-users
+[8mha:////4OWsziMJFW5X5UdCvVytB7KOyvDcjcUii1bOwNRdcUxgAAAAqh+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGFQsDU2PjZAMjXWPTtGRdk1RjI12LRFND3USjNHPTtMRkEyANABi/QwmvAAAA[0m[db-ansible-users] $ ansible-playbook /var/jenkins_home/ansible/people.yml -l /var/jenkins_home/ansible/hosts -f 5 -e edad=21
+[1;35m[WARNING]: No inventory was parsed, only implicit localhost is available[0m
+[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that[0m
+[1;35mthe implicit localhost does not match 'all'[0m
+[1;35m[WARNING]: Could not match supplied host pattern, ignoring:[0m
+[1;35m/var/jenkins_home/ansible/hosts[0m
+[1;35m[WARNING]: Could not match supplied host pattern, ignoring: web1[0m
+
+PLAY [web1] ********************************************************************
+[0;36mskipping: no hosts matched[0m
+
+PLAY RECAP *********************************************************************
+
+Finished: SUCCESS

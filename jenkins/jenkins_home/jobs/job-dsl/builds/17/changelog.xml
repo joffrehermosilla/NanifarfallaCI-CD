@@ -1,0 +1,10 @@
+commit 76f9ce19281c53212a27ae7fba4db3abad90ff48
+tree c51de65b9f966b5323e1f770548864a20ecaad15
+parent 865042c029c7adda57e2aa469f8c902bab869875
+author joffre <joffre.hermosilla@gmail.com> 2020-08-03 01:20:07 -0500
+committer joffre <joffre.hermosilla@gmail.com> 2020-08-03 01:20:07 -0500
+
+    Segundo commit
+
+
+:100644 100644 893c1e8a409ca9e9cd8d2df9f205453cf149ea3c ffcf92be6529fca36d440c0685a6477ac80aad0a M	jobs

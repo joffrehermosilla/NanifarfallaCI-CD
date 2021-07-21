@@ -1,0 +1,31 @@
+commit 01adafe9b51f360ff87d2290317940bb8de54798
+tree 888c1116314c23b46f9ed61e7da0d500579c1c9c
+parent 3092ae9b3d3cde86f8e173271f672772d4246783
+author joffre <joffre.hermosilla@gmail.com> 2020-08-03 09:28:34 -0500
+committer joffre <joffre.hermosilla@gmail.com> 2020-08-03 09:28:34 -0500
+
+    commit definitivo
+
+
+:100644 100644 f5c08f0854072d124714f55629783af7afbb0677 6a56f42cd1cc7d136c424ff4f0b6a77048b98ac1 M	jobs
+commit 3092ae9b3d3cde86f8e173271f672772d4246783
+tree 3e62a82046829fd40c8ae5a0ca66b227573bc0e7
+parent 93952670e7370d5fcd6ddaac9425a49afda34929
+author joffre <joffre.hermosilla@gmail.com> 2020-08-03 09:15:29 -0500
+committer joffre <joffre.hermosilla@gmail.com> 2020-08-03 09:15:29 -0500
+
+    Nuevo commit
+
+
+:100644 100644 8196a462cee71c15fe63d54723b8a84ef505ae34 f5c08f0854072d124714f55629783af7afbb0677 M	jobs
+commit 93952670e7370d5fcd6ddaac9425a49afda34929
+tree 3b29542a7895db705a100cd41ec1165f187578e0
+parent 735f5b803778f4e815499420bc238d1331dca4cc
+author joffre <joffre.hermosilla@gmail.com> 2020-08-03 02:08:18 -0500
+committer joffre <joffre.hermosilla@gmail.com> 2020-08-03 02:08:18 -0500
+
+    correxion
+
+
+:100644 100644 9ee020f1aa063ecfb8e539bbed54076d5b3263b8 8196a462cee71c15fe63d54723b8a84ef505ae34 M	jobs
+:100644 100644 6847437b23e0c584819105db1d6c707dfd77966d e4d23329a0bd77af82e53b2e6efa43258cc8019b M	post-receive.sh

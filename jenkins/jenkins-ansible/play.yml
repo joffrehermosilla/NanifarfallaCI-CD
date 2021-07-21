@@ -1,0 +1,3 @@
+- hosts: test1
+  tasks:
+    - shell: echo Hola Mundo desde Ansible y Jenkins > /tmp/hola-ansible

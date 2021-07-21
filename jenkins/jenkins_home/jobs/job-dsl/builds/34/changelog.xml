@@ -1,0 +1,10 @@
+commit e919cd33db91f4eb96f6b23330df8672d72ab6f5
+tree f5fdda4eb13d2f663abb32afa8be18f86ba73d89
+parent 01adafe9b51f360ff87d2290317940bb8de54798
+author joffre <joffre.hermosilla@gmail.com> 2020-08-03 12:43:55 -0500
+committer joffre <joffre.hermosilla@gmail.com> 2020-08-03 12:43:55 -0500
+
+    commit con los permisos en jenkins
+
+
+:100644 100644 6a56f42cd1cc7d136c424ff4f0b6a77048b98ac1 f641a5e7f252c2dc2a692106befe9f0446876dbd M	jobs

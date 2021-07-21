@@ -1,0 +1,25 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+using credential git_creds
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git/jenkinsci/dsl.git # timeout=10
+Fetching upstream changes from http://git/jenkinsci/dsl.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- http://git/jenkinsci/dsl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 01adafe9b51f360ff87d2290317940bb8de54798 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 01adafe9b51f360ff87d2290317940bb8de54798 # timeout=10
+Commit message: "commit definitivo"
+ > git rev-list --no-walk 01adafe9b51f360ff87d2290317940bb8de54798 # timeout=10
+Processing DSL script jobs
+Existing items:
+    GeneratedJob{name='ansible_dsl'}
+    GeneratedJob{name='job_dsl_example'}
+    GeneratedJob{name='maven_dsl'}
+    GeneratedJob{name='post_receive'}
+Finished: SUCCESS

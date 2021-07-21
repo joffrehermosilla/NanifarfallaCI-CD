@@ -1,0 +1,21 @@
+Started by user [8mha:////4O6j68/ThliJeTx7Kulcfqp/J7nkCw3f8eXNy7kbhsfaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYe/dLi1CJ9oBGpOYkAUo55Q8EAAAA=[0mangela garate roman
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+using credential git_creds
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git/jenkinsci/dsl.git # timeout=10
+Fetching upstream changes from http://git/jenkinsci/dsl.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- http://git/jenkinsci/dsl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5571b4178f3ec2a64f4c69dcaf4ed5d40393c84e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5571b4178f3ec2a64f4c69dcaf4ed5d40393c84e # timeout=10
+Commit message: "correxion"
+ > git rev-list --no-walk 73866ca4668f8d5b112a1e1d2d30209893b12882 # timeout=10
+Processing DSL script jobs
+ERROR: script not yet approved for use
+Finished: FAILURE

@@ -1,0 +1,61 @@
+Started by user [8mha:////4O6j68/ThliJeTx7Kulcfqp/J7nkCw3f8eXNy7kbhsfaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYe/dLi1CJ9oBGpOYkAUo55Q8EAAAA=[0mangela garate roman
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+using credential git_creds
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git/jenkinsci/dsl.git # timeout=10
+Fetching upstream changes from http://git/jenkinsci/dsl.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- http://git/jenkinsci/dsl.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b9496091f3f6de4a581e9ef4706126b28b618c32 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b9496091f3f6de4a581e9ef4706126b28b618c32 # timeout=10
+Commit message: "ultimo"
+ > git rev-list --no-walk b9496091f3f6de4a581e9ef4706126b28b618c32 # timeout=10
+FATAL: Expecting Ant GLOB pattern, but saw '/var/jenkins_home/workspace/job-dsl/jobs'. See http://ant.apache.org/manual/Types/fileset.html for syntax
+java.io.IOException: Expecting Ant GLOB pattern, but saw '/var/jenkins_home/workspace/job-dsl/jobs'. See http://ant.apache.org/manual/Types/fileset.html for syntax
+	at hudson.FilePath.glob(FilePath.java:1929)
+	at hudson.FilePath.access$3200(FilePath.java:211)
+	at hudson.FilePath$ListGlob.invoke(FilePath.java:1910)
+	at hudson.FilePath$ListGlob.invoke(FilePath.java:1898)
+	at hudson.FilePath.act(FilePath.java:1075)
+	at hudson.FilePath.act(FilePath.java:1058)
+	at hudson.FilePath.list(FilePath.java:1896)
+	at hudson.FilePath.list(FilePath.java:1880)
+	at hudson.FilePath.list(FilePath.java:1865)
+	at hudson.FilePath$list.call(Unknown Source)
+	at javaposse.jobdsl.plugin.ScriptRequestGenerator$_getScriptRequests_closure2.doCall(ScriptRequestGenerator.groovy:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2040)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1895)
+	at org.codehaus.groovy.runtime.dgm$160.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at javaposse.jobdsl.plugin.ScriptRequestGenerator.getScriptRequests(ScriptRequestGenerator.groovy:42)
+	at javaposse.jobdsl.plugin.ExecuteDslScripts.perform(ExecuteDslScripts.java:336)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:112)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1880)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:428)
+Finished: FAILURE

@@ -1,0 +1,19 @@
+- name: Create Linode
+  hosts: localhost
+  vars_files:
+      - ./group_vars/example_group/vars
+  tasks:
+  - name: Create a new Linode.
+    linode_v4:
+      label: "{{ label }}{{ 100 |random }}"
+      access_token: "{{ token }}"
+      type: g6-nanode-1
+      region: us-east
+      image: linode/debian9
+      root_pass: "{{ password }}"
+      authorized_keys: "{{ ssh_keys }}"
+      group: example_group
+      tags: example_group
+      state: present
+    register: my_linode
+    
