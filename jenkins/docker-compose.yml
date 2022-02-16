@@ -2,7 +2,7 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins-ansible
+    image: alucardaywalker/jenkins:${TAG:-latest}
     build:
       context: jenkins-ansible     
     ports:
@@ -15,7 +15,7 @@ services:
       - net
   remote_host:
     container_name: remote-host
-    image: remote-host
+    image: alucardaywalker/remote-host:${TAG:-latest}
     build:
       context: centos7
     volumes:
@@ -33,7 +33,7 @@ services:
       - net
   web:
     container_name: web
-    image: ansible-web
+    image: alucardaywalker/web:${TAG:-latest}
     build:
       context: jenkins-ansible/web
     ports:

@@ -1,0 +1,20 @@
+Docker
+
+creando un dockerfile simple DOCKERFILE
+
+FROM nginx
+
+RUN echo "1" >> /usr/share/nginx/html/test.txt && echo "1" >> /usr/share/nginx/html/test.txt && echo "3" >> /usr/share/nginx/html/test.txt
+
+
+EJECUTAR
+docker build -t nginx:bad .
+
+CORRER 
+
+ docker run -d -p 80:80 nginx:bad
+
+
+CERRAR DOCKER
+
+docker rm -fv jolly_rosalind
